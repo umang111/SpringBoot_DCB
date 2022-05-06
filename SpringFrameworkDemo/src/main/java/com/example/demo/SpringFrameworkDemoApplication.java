@@ -8,8 +8,11 @@ public class SpringFrameworkDemoApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(SpringFrameworkDemoApplication.class, args);
-		System.out.println("hello");
+//		SpringApplication.run(SpringFrameworkDemoApplication.class, args);
+//		System.out.println("hello");
+		Doctor doctor=new Doctor();
+		doctor.assist();
 	}
+
 
 }	
